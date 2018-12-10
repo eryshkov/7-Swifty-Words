@@ -36,8 +36,38 @@ class ViewController: UIViewController {
         
     }
     
-    @objc func letterTapped(){
+    @objc func letterTapped(btn: UIButton){
         
+    }
+    
+    func loadLevel() {
+        var clueString = ""
+        var solutionString = ""
+        var letterBits = [String]()
+        
+        if let levelFilePath = Bundle.main.path(forResource: "level1", ofType: "txt") {
+            if let levelContents = try? String(contentsOfFile: levelFilePath) {
+                var lines = levelContents.components(separatedBy: "\n")
+                lines.shuffle()
+                
+                for (index, line) in lines.enumerated() {
+                    let parts = line.components(separatedBy: ": ")
+                    let answer = parts[0]
+                    let clue = parts[1]
+                    
+                    clueString += "\(index + 1). \(clue)\n"
+                    
+                    let solutionWord = answer.replacingOccurrences(of: "|", with: "")
+                    solutionString += "\(solutionWord.count) letters\n"
+                    solutions.append(solutionWord)
+                    
+                    let bits = answer.components(separatedBy: "|")
+                    letterBits += bits
+                }
+            }
+        }
+        
+//        Now configure the buttons and labels
     }
     
     //MARK: -IBActions
