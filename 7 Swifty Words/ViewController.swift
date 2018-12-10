@@ -38,7 +38,9 @@ class ViewController: UIViewController {
     }
     
     @objc func letterTapped(btn: UIButton){
-        
+        currentAnswer.text = currentAnswer.text! + btn.titleLabel!.text!
+        activatedButtons.append(btn)
+        btn.isHidden = true
     }
     
     func loadLevel() {
@@ -80,13 +82,19 @@ class ViewController: UIViewController {
         }
     }
     
-    //MARK: -IBActions
+    //MARK: - IBActions
     @IBAction func submitTapped(_ sender: UIButton) {
         
     }
     
     @IBAction func clearTapped(_ sender: UIButton) {
+        currentAnswer.text? = ""
         
+        for btn in activatedButtons {
+            btn.isHidden = false
+        }
+        
+        activatedButtons.removeAll()
     }
     
 }
