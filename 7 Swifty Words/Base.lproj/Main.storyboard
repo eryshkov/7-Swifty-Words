@@ -18,117 +18,232 @@
                         <rect key="frame" x="0.0" y="0.0" width="1112" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QlV-ic-aX3">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QlV-ic-aX3" userLabel="Button Stack">
                                 <rect key="frame" x="222.5" y="338.5" width="667" height="407"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="h5g-3I-Ytt">
                                         <rect key="frame" x="0.0" y="0.0" width="667" height="102"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ls-3T-A2Z">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ls-3T-A2Z">
                                                 <rect key="frame" x="0.0" y="0.0" width="133.5" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0h-zh-D0g">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0h-zh-D0g">
                                                 <rect key="frame" x="133.5" y="0.0" width="133.5" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtx-qu-Ycg">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtx-qu-Ycg">
                                                 <rect key="frame" x="267" y="0.0" width="133" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wH4-WM-Dlr">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wH4-WM-Dlr">
                                                 <rect key="frame" x="400" y="0.0" width="133.5" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toQ-Na-TXh">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toQ-Na-TXh">
                                                 <rect key="frame" x="533.5" y="0.0" width="133.5" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pq6-dd-rRQ">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="f9w-s2-Ixr">
                                         <rect key="frame" x="0.0" y="102" width="667" height="101.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-Gc-H8c">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpL-pq-wQg">
                                                 <rect key="frame" x="0.0" y="0.0" width="133.5" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cst-UL-iQg">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unO-aC-spc">
                                                 <rect key="frame" x="133.5" y="0.0" width="133.5" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jty-hv-LcN">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lne-kx-5zn">
                                                 <rect key="frame" x="267" y="0.0" width="133" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CW4-fy-zcr">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOu-6d-gWG">
                                                 <rect key="frame" x="400" y="0.0" width="133.5" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ue-a7-ZgH">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YA1-Gp-W4Y">
                                                 <rect key="frame" x="533.5" y="0.0" width="133.5" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="FxM-Bf-0bv">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ymf-Xw-lJf">
                                         <rect key="frame" x="0.0" y="203.5" width="667" height="102"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lk-8b-9g4">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbK-pI-fpX">
                                                 <rect key="frame" x="0.0" y="0.0" width="133.5" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNt-ok-8Ax">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzo-1D-iB5">
                                                 <rect key="frame" x="133.5" y="0.0" width="133.5" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGO-Qi-iw7">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fS0-W2-sRk">
                                                 <rect key="frame" x="267" y="0.0" width="133" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRh-Rc-hk6">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2L3-Vr-giI">
                                                 <rect key="frame" x="400" y="0.0" width="133.5" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rg1-1Y-g3w">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEb-qS-8gc">
                                                 <rect key="frame" x="533.5" y="0.0" width="133.5" height="102"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="RO3-Kd-4Pu">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="X6p-ou-ozT">
                                         <rect key="frame" x="0.0" y="305.5" width="667" height="101.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lS-SG-sXH">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yha-ni-4Lk">
                                                 <rect key="frame" x="0.0" y="0.0" width="133.5" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbj-8C-dWe">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEc-G5-82X">
                                                 <rect key="frame" x="133.5" y="0.0" width="133.5" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJQ-qo-mhD">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmH-dF-zUm">
                                                 <rect key="frame" x="267" y="0.0" width="133" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUN-KK-TbT">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ths-lf-jNI">
                                                 <rect key="frame" x="400" y="0.0" width="133.5" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGC-SV-oIw">
+                                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1W7-Sq-tHs">
                                                 <rect key="frame" x="533.5" y="0.0" width="133.5" height="101.5"/>
-                                                <state key="normal" title="Button"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <state key="normal" title="WWW">
+                                                    <color key="titleColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="dMb-ds-Xzo" userLabel="Top Stack">
+                                <rect key="frame" x="222.5" y="96.5" width="667" height="172"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="256" translatesAutoresizingMaskIntoConstraints="NO" id="pQs-Wo-eJ0">
+                                        <rect key="frame" x="116" y="0.0" width="435" height="29"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clues" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBy-91-X4f">
+                                                <rect key="frame" x="0.0" y="0.0" width="89.5" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answers" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFg-QU-Rhk">
+                                                <rect key="frame" x="345.5" y="0.0" width="89.5" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tap letters to guess" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N2t-9E-7P6">
+                                        <rect key="frame" x="151" y="56" width="365.5" height="53"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="sGu-FF-c5V">
+                                        <rect key="frame" x="226" y="136" width="215" height="36"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7v5-dO-DKP">
+                                                <rect key="frame" x="0.0" y="0.0" width="73" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="SUBMIT"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODc-5a-pUk">
+                                                <rect key="frame" x="153" y="0.0" width="62" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="CLEAR"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62e-9Z-yq0">
+                                <rect key="frame" x="1009.5" y="28" width="86.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dMb-ds-Xzo" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.6" id="3tw-Xh-uRZ"/>
+                            <constraint firstItem="QlV-ic-aX3" firstAttribute="top" secondItem="dMb-ds-Xzo" secondAttribute="bottom" constant="70" id="7Dm-vv-US5"/>
                             <constraint firstItem="QlV-ic-aX3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.3" id="Ai3-9u-1Zl"/>
+                            <constraint firstItem="62e-9Z-yq0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="GJ1-A4-ZEG"/>
+                            <constraint firstItem="dMb-ds-Xzo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N8J-tb-5dT"/>
+                            <constraint firstItem="62e-9Z-yq0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="OA1-XC-gch"/>
                             <constraint firstItem="QlV-ic-aX3" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.6" id="PMc-Xd-1q3"/>
                             <constraint firstItem="QlV-ic-aX3" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="WDu-pv-dG7"/>
+                            <constraint firstAttribute="trailing" secondItem="62e-9Z-yq0" secondAttribute="trailing" constant="16" id="lup-SV-vTS"/>
                             <constraint firstItem="QlV-ic-aX3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qe6-yn-7Fv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -136,6 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="17.805755395683455" y="21.582733812949641"/>
         </scene>
     </scenes>
 </document>
