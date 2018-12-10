@@ -256,6 +256,7 @@
                     </view>
                     <connections>
                         <outlet property="answersLabel" destination="nFg-QU-Rhk" id="bvl-Rg-WlQ"/>
+                        <outlet property="buttonsStack" destination="QlV-ic-aX3" id="6aW-Y8-Jxe"/>
                         <outlet property="cluesLabel" destination="zBy-91-X4f" id="yrl-Ku-Whd"/>
                         <outlet property="currentAnswer" destination="N2t-9E-7P6" id="IN8-96-inN"/>
                         <outlet property="scoreLabel" destination="62e-9Z-yq0" id="VTR-oj-Zww"/>
