@@ -14,6 +14,9 @@
 		5C5EB6D521BE57BD000B9327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5EB6D321BE57BD000B9327 /* LaunchScreen.storyboard */; };
 		5C5EB6DD21BE72C6000B9327 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C5EB6DC21BE72C5000B9327 /* level1.txt */; };
 		5C5EB6DF21BE90B2000B9327 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C5EB6DE21BE90B2000B9327 /* level2.txt */; };
+		5C5EB6E221BE92A2000B9327 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C5EB6E121BE92A2000B9327 /* README.md */; };
+		5C5EB6E521BE941E000B9327 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C5EB6E321BE941E000B9327 /* 2.jpeg */; };
+		5C5EB6E621BE941E000B9327 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C5EB6E421BE941E000B9327 /* 1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5C5EB6D621BE57BD000B9327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C5EB6DC21BE72C5000B9327 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		5C5EB6DE21BE90B2000B9327 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		5C5EB6E121BE92A2000B9327 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C5EB6E321BE941E000B9327 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		5C5EB6E421BE941E000B9327 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		5C5EB6BE21BE57BC000B9327 = {
 			isa = PBXGroup;
 			children = (
+				5C5EB6E121BE92A2000B9327 /* README.md */,
+				5C5EB6E021BE928C000B9327 /* screens */,
 				5C5EB6DC21BE72C5000B9327 /* level1.txt */,
 				5C5EB6DE21BE90B2000B9327 /* level2.txt */,
 				5C5EB6C921BE57BC000B9327 /* 7 Swifty Words */,
@@ -68,6 +76,15 @@
 				5C5EB6D621BE57BD000B9327 /* Info.plist */,
 			);
 			path = "7 Swifty Words";
+			sourceTree = "<group>";
+		};
+		5C5EB6E021BE928C000B9327 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5C5EB6E421BE941E000B9327 /* 1.jpeg */,
+				5C5EB6E321BE941E000B9327 /* 2.jpeg */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,11 +145,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5EB6E221BE92A2000B9327 /* README.md in Resources */,
 				5C5EB6DF21BE90B2000B9327 /* level2.txt in Resources */,
 				5C5EB6D521BE57BD000B9327 /* LaunchScreen.storyboard in Resources */,
+				5C5EB6E621BE941E000B9327 /* 1.jpeg in Resources */,
 				5C5EB6DD21BE72C6000B9327 /* level1.txt in Resources */,
 				5C5EB6D221BE57BD000B9327 /* Assets.xcassets in Resources */,
 				5C5EB6D021BE57BC000B9327 /* Main.storyboard in Resources */,
+				5C5EB6E521BE941E000B9327 /* 2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
