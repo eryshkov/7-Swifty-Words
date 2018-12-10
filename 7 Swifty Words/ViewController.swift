@@ -34,6 +34,7 @@ class ViewController: UIViewController {
             }
         }
         
+        loadLevel()
     }
     
     @objc func letterTapped(btn: UIButton){
@@ -67,7 +68,16 @@ class ViewController: UIViewController {
             }
         }
         
-//        Now configure the buttons and labels
+        cluesLabel.text = clueString.trimmingCharacters(in: .whitespacesAndNewlines)
+        answersLabel.text = solutionString.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        letterBits.shuffle()
+        
+        if letterBits.count == letterButtons.count {
+            for i in 0 ..< letterButtons.count {
+                letterButtons[i].setTitle(letterBits[i], for: .normal)
+            }
+        }
     }
     
     //MARK: -IBActions
